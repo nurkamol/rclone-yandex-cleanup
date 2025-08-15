@@ -2,10 +2,12 @@
 
 Automated backup rotation and cleanup tool for Yandex Disk using rclone. Specifically designed for managing WordPress backup files from All-in-One WP Migration plugin (.wpress files).
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/nurkamol/rclone-yandex-cleanup)
-[![License](https://img.shields.io/badge/license-Private-red.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/nurkamol/rclone-yandex-cleanup/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Bash](https://img.shields.io/badge/bash-5.0%2B-green.svg)](https://www.gnu.org/software/bash/)
 [![rclone](https://img.shields.io/badge/rclone-required-orange.svg)](https://rclone.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nurkamol/rclone-yandex-cleanup/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nurkamol/rclone-yandex-cleanup/graphs/commit-activity)
 
 ## 🎯 Purpose
 
@@ -221,11 +223,24 @@ nice -n 10 ./rclone-yandex-cleanup.sh
 
 ## 🤝 Contributing
 
-Since this is a private repository, contributions are limited to authorized collaborators. Please:
-1. Create a feature branch
-2. Test thoroughly with DRY RUN mode
-3. Document any configuration changes
-4. Submit a pull request with clear description
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Test thoroughly with DRY RUN mode
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
+
+### Guidelines
+
+- Ensure the script passes DRY RUN mode tests
+- Update README.md with details of changes if applicable
+- Follow the existing code style
+- Add comments for complex logic
+- Test with multiple WordPress sites if possible
 
 ## ⚠️ Important Notes
 
@@ -237,20 +252,40 @@ Since this is a private repository, contributions are limited to authorized coll
 
 ## 📄 License
 
-Private repository - All rights reserved
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Community & Support
+
+- **Issues**: [Report bugs or request features](https://github.com/nurkamol/rclone-yandex-cleanup/issues)
+- **Discussions**: [Ask questions and share ideas](https://github.com/nurkamol/rclone-yandex-cleanup/discussions)
+- **Wiki**: [Additional documentation and tips](https://github.com/nurkamol/rclone-yandex-cleanup/wiki)
+
+## ⭐ Show Your Support
+
+If this project helped you, please consider giving it a star on GitHub! It helps others discover the tool.
 
 ## 👤 Author
 
-Nurkamol Vakhidov - [nurkamol@gmail.com](mailto:nurkamol@gmail.com)
+**Your Name**
+
+- GitHub: [@nurkamol](https://github.com/nurkamol)
+- Email: [nurkamol@gmail.com](mailto:nurkamol@gmail.com)
 
 ## 🙏 Acknowledgments
 
 - Developed for managing All-in-One WP Migration plugin backups
-- Uses rclone for Yandex Disk integration
+- Uses [rclone](https://rclone.org/) for Yandex Disk integration
 - Tested in production environment with 50+ WordPress sites
+- Inspired by the need for automated backup management
+
+## 📈 Project Status
+
+- ✅ Production ready
+- ✅ Actively maintained
+- ✅ Open for contributions
 
 ---
 
-**Last Updated**: August 2025  
-**Version**: 1.0.0  
-**Status**: Production Ready
+**Latest Release**: v1.0.0 (August 2025)  
+**Downloads**: See [Releases](https://github.com/nurkamol/rclone-yandex-cleanup/releases)  
+**Star History**: [![Star History Chart](https://api.star-history.com/svg?repos=nurkamol/rclone-yandex-cleanup&type=Date)](https://star-history.com/#nurkamol/rclone-yandex-cleanup&Date)
